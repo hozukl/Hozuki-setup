@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #09090a;
-  color: blue;
+  background-color: #22525c;
+  color: white;
 
   height: 100vh;
 }
@@ -19,8 +19,8 @@ header {
   padding: 48px;
 
   position: fixed;
+  background-color: #22525c;
   width: 100%;
-  background-color: #09090a;
 }
 
 button {
@@ -100,14 +100,15 @@ input {
   border: 2px solid #27272a;
   border-radius: 8px;
 
-  background: #18181b;
+  background: white;
 }
 
 input:checked {
   background: #8b5cf6;
   border: 2px solid #a78bfa;
 }
-
 @media (max-width: 570px) {
-  display: none;
+  buton div {
+    display: none;
+  }
 }
